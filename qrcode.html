@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>QRCode.js</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	</head>
+	<body>
+		<div id="qrcode"></div>
+		
+		<!-- Creating QRCode on browser -->
+		<script src="qrcode.min.js"></script>
+		<script>
+				new QRCode("qrcode", {
+					text: "https://www.github.com./rafaelbertelli",
+					width: 128,
+					height: 128,
+					colorDark : "#000000",
+					colorLight : "#ffffff",
+					correctLevel : QRCode.CorrectLevel.H
+				});
+		</script>
+	</body>
+</html>

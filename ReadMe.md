@@ -14,5 +14,9 @@ QRCode.js is a js library for making QRCode.
 ## 4# [QRCode scanner](https://github.com/schmich/instascan)
 QRCode scanner using your pc webcam
 
-## 5# [QRCode on server]()
+## 5# [QRCode on server](https://www.npmjs.com/package/qr-image)
 Creating QRCode on server using Express
+
+## 6# [Bad-words](https://www.npmjs.com/package/bad-words)
+A JS filter for badwords
+
